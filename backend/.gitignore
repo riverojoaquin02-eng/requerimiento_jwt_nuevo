@@ -1,0 +1,96 @@
+# ==========================
+# PYTHON
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+test-results/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Logs
+*.log
+*.pid
+*.out
+*.err
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ==========================
+# DATABASES
+# ==========================
+*.db
+*.sqlite3
+*.sqlite
+
+# Alembic / Migrations (opcional, solo si no quieres trackear las migraciones)
+# migrations/
+
+# ==========================
+# DOCKER
+# ==========================
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================
+# ENVIRONMENT FILES
+# ==========================
+# Archivos de configuración sensibles
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# ==========================
+# FASTAPI / UVICORN
+# ==========================
+# Archivos generados por runserver
+*.pyc
